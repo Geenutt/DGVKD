@@ -18,7 +18,7 @@ public class TestT1B3 {
         ByteArrayOutputStream outContent = new ByteArrayOutputStream();
         System.setOut(new PrintStream(outContent));
 
-        Main.add();
+        Tuan1_Bai3.add();
 
         assertEquals("Nhập số thứ nhất: Nhập số thứ hai: Tổng: 11.0", outContent.toString());
 
@@ -37,7 +37,7 @@ public class TestT1B3 {
         ByteArrayOutputStream outContent = new ByteArrayOutputStream();
         System.setOut(new PrintStream(outContent));
 
-        Main.subtract();
+        Tuan1_Bai3.subtract();
 
         assertEquals("Nhập số thứ nhất: Nhập số thứ hai: Hiệu: -10.0", outContent.toString());
 
@@ -56,7 +56,7 @@ public class TestT1B3 {
         ByteArrayOutputStream outContent = new ByteArrayOutputStream();
         System.setOut(new PrintStream(outContent));
 
-        Main.multiply();
+        Tuan1_Bai3.multiply();
 
         assertEquals("Nhập số thứ nhất: Nhập số thứ hai: Tích: 200.0", outContent.toString());
 
@@ -75,7 +75,7 @@ public class TestT1B3 {
         ByteArrayOutputStream outContent = new ByteArrayOutputStream();
         System.setOut(new PrintStream(outContent));
 
-        Main.divide();
+        Tuan1_Bai3.divide();
 
         assertEquals("Nhập số thứ nhất: Nhập số thứ hai: Thương: 5.0", outContent.toString());
 
@@ -94,7 +94,7 @@ public class TestT1B3 {
         ByteArrayOutputStream outContent = new ByteArrayOutputStream();
         System.setOut(new PrintStream(outContent));
 
-        Main.main(null);
+        Tuan1_Bai3.main(null);
 
         assertEquals("Chọn một trong các phép tính sau:\n1. Cộng\n2. Trừ\n3. Nhân\n4. Chia\n5. Thoát\nNhập lựa chọn của bạn: Lựa chọn không hợp lệ. Vui lòng chọn lại.\nChọn một trong các phép tính sau:\n1. Cộng\n2. Trừ\n3. Nhân\n4. Chia\n5. Thoát\nNhập lựa chọn của bạn: Tạm biệt!\n", outContent.toString());
 
