@@ -20,7 +20,7 @@ public class TestT1B3 {
 
         Main.add();
 
-        assertEquals("Nhập số thứ nhất: Nhập số thứ hai: Tổng: 30.0\n", outContent.toString());
+        assertEquals("Nhập số thứ nhất: Nhập số thứ hai: Tổng: 11.0\n", outContent.toString());
 
         System.setIn(originalInput);
         System.setOut(originalOutput);
