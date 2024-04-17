@@ -20,7 +20,7 @@ public class TestT1B3 {
 
         Main.add();
 
-        assertEquals("Nhập số thứ nhất: Nhập số thứ hai: Tổng: 11.0\n", outContent.toString());
+        assertEquals("Nhập số thứ nhất: Nhập số thứ hai: Tổng: 11.0", outContent.toString());
 
         System.setIn(originalInput);
         System.setOut(originalOutput);
@@ -39,7 +39,7 @@ public class TestT1B3 {
 
         Main.subtract();
 
-        assertEquals("Nhập số thứ nhất: Nhập số thứ hai: Hiệu: -10.0\n", outContent.toString());
+        assertEquals("Nhập số thứ nhất: Nhập số thứ hai: Hiệu: -10.0", outContent.toString());
 
         System.setIn(originalInput);
         System.setOut(originalOutput);
@@ -58,7 +58,7 @@ public class TestT1B3 {
 
         Main.multiply();
 
-        assertEquals("Nhập số thứ nhất: Nhập số thứ hai: Tích: 200.0\n", outContent.toString());
+        assertEquals("Nhập số thứ nhất: Nhập số thứ hai: Tích: 200.0", outContent.toString());
 
         System.setIn(originalInput);
         System.setOut(originalOutput);
@@ -77,7 +77,7 @@ public class TestT1B3 {
 
         Main.divide();
 
-        assertEquals("Nhập số thứ nhất: Nhập số thứ hai: Thương: 5.0\n", outContent.toString());
+        assertEquals("Nhập số thứ nhất: Nhập số thứ hai: Thương: 5.0", outContent.toString());
 
         System.setIn(originalInput);
         System.setOut(originalOutput);
