@@ -46,7 +46,7 @@ public class Main {
         double num1 = scanner.nextDouble();
         System.out.print("Nhập số thứ hai: ");
         double num2 = scanner.nextDouble();
-        System.out.println("Tổng: " + (num1 + num2));
+        System.out.print("Tổng: " + (num1 + num2));
     }
 
     public static void subtract() {
@@ -55,7 +55,7 @@ public class Main {
         double num1 = scanner.nextDouble();
         System.out.print("Nhập số thứ hai: ");
         double num2 = scanner.nextDouble();
-        System.out.println("Hiệu: " + (num1 - num2));
+        System.out.print("Hiệu: " + (num1 - num2));
     }
 
     public static void multiply() {
@@ -64,7 +64,7 @@ public class Main {
         double num1 = scanner.nextDouble();
         System.out.print("Nhập số thứ hai: ");
         double num2 = scanner.nextDouble();
-        System.out.println("Tích: " + (num1 * num2));
+        System.out.print("Tích: " + (num1 * num2));
     }
 
     public static void divide() {
@@ -74,9 +74,9 @@ public class Main {
         System.out.print("Nhập số thứ hai: ");
         double num2 = scanner.nextDouble();
         if (num2 == 0) {
-            System.out.println("Không thể chia cho 0.");
+            System.out.print("Không thể chia cho 0.");
         } else {
-            System.out.println("Thương: " + (num1 / num2));
+            System.out.print("Thương: " + (num1 / num2));
         }
     }
 }
