@@ -1,5 +1,3 @@
-package Sample_Problems;
-
 public class NextDays {
     
     public static String getNextDays(int day, int month, int year) {
